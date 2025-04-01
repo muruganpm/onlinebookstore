@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "muruganpm/onlinebookstore"
         CONTAINER_NAME = "onlinebookstore-container"
-        HOST_PORT = "8080"
+        HOST_PORT = "8081"
     }
 
     stages {
